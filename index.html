@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-Commerce</title>
+    <link rel="stylesheet" href="./assets/css/styles.css">
+</head>
+<body>
+    <header class="header">
+        <nav class="nav container">
+            <a href="#" class="nav__logo">
+                <img src="./assets/images/f1.png" alt="" class="nav__logo-icon">
+                Store
+            </a>
+            <div class="nav-menu" id="nav__menu">
+                <ul class="nav__list">
+                    <li class="nav__item">
+                        <a href="#home" class="nav__link active-link">
+                            Home
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#products" class="nav__link">
+                            Products
+                        </a>
+                    </li>
+                </ul>
+                <div class="nav__close" id="nav-close">
+
+                </div>
+            </div>
+            <div class="nav__btns">
+                <img src="./assets/images/004-moon.png" alt="" class="moon-icon">
+                <div class="bag-icon">
+                    <img src="./assets/images/003-shopping-bag.png" alt="">
+                </div>
+                <div class="menu-icon">
+                    <img src="./assets/images/005-menu.png" alt="">
+                </div>
+                
+            </div>
+        </nav>
+
+    </header>
+
+
+                        <!-- MAIN -->
+    <main>
+        <section class="home" id="home">
+            <div class="home__container container grid">
+                <div class="home__img-bg">
+                    <img src="./assets/images/Ferrari-jacket.png" alt="" class="img-home">
+                </div>
+            
+                <div class="home__data">
+                    <h1 class="home__title">
+                        Replica in softshell
+                        <br>
+                        TEAM 2021
+                    </h1>  
+                    <p class="home__description">
+                        The iconic style of the jacket the team wears on the track inspires this garment made of Softshell.
+                    </p>
+                    <span class="home__price">$189.00</span>
+                    <div class="home__btns">
+                        <a href="#" class="button button--gray button--small"> Discover</a>
+                        <button class="button home__button">ADD TO CART</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+                        
+                            <!-- PRODUCTS -->
+        <section class="products" id="products">
+            <div class="products__container">
+                <ul class="products__filters">
+                    <li class="products__item products__line mixitup-control-active" data-fiter="all">
+                        <h3 class="products__title">Show all</h3>
+                        <span class="products__stock">Show all products</span>
+                    </li>
+                    <li class="products__item products__line active-product" data-fiter=".hoodies">
+                        <h3 class="products__title">Hoodies</h3>
+                        <span class="products__stock">3 products</span>
+                    </li>
+                    <li class="products__item products__line" data-fiter=".shirts">
+                        <h3 class="products__title">Shirts</h3>
+                        <span class="products__stock">4 products</span>
+                    </li>
+                    <li class="products__item" data-fiter=".caps">
+                        <h3 class="products__title">Caps</h3>
+                        <span class="products__stock">4 products</span>
+                    </li>
+                </ul>
+                <div class="products__content grid" id="products__content" style>
+                    <article class="products__card hoodies">
+                        <div class="products__shape">
+                            <img src="./assets/images/hoodie.jpeg" alt="Hoodies" class="products__img">
+                        </div>
+                        <div class="products__data">
+                            <h2 class="products__price">
+                                $104.00 
+                                <span class="products__quantity">
+                                    Stock: 10
+                                </span>
+                            </h2>
+                            <h3 class="products__name">
+                                Hoodies
+                            </h3>
+                            <button class="button products__button" data-id="1">
+                                <img src="./assets/images/002-plus.png" alt="">
+                            </button>
+                        </div>
+                    </article>
+                    <article class="products__card shirts">
+                        <div class="products__shape">
+                            <img src="./assets/images/polo.jpeg" alt="Shirts" class="products__img">
+                        </div>
+                        <div class="products__data">
+                            <h2 class="products__price">
+                                $89.00 
+                                <span class="products__quantity">
+                                    Stock: 15
+                                </span>
+                            </h2>
+                            <h3 class="products__name">
+                                Shirts
+                            </h3>
+                            <button class="button products__button" data-id="1">
+                                <img src="./assets/images/002-plus.png" alt="">
+                            </button>
+                        </div>
+                    </article>
+                    <article class="products__card caps">
+                        <div class="products__shape">
+                            <img src="./assets/images/cap.jpeg" alt="Caps" class="products__img">
+                        </div>
+                        <div class="products__data">
+                            <h2 class="products__price">
+                                $49.00 
+                                <span class="products__quantity">
+                                    Stock: 20
+                                </span>
+                            </h2>
+                            <h3 class="products__name">
+                                Caps
+                            </h3>
+                            <button class="button products__button" data-id="1">
+                                <img src="./assets/images/002-plus.png" alt="">
+                            </button>
+                        </div>
+                    </article>
+                </div> 
+            </div>
+        </section>
+    </main>
+
+
+                        <!-- FOOTER -->
+    <footer class="footer section">
+        <div class="footer__container container grid">
+            <div class="footer_content">
+                <h3 class="footer__title">Our Information</h3>
+                <ul class="footer__list">
+                    <li>Toluca - México</li>
+                </ul>
+            </div>
+            <div class="footer__content">
+                <h3 class="footer__title">About Us</h3>
+                <ul class="footer__links">
+                    <li>
+                        <a href="#" class="footer__link">Support Center</a>
+                    </li>
+                    <li>
+                        <a href="#" class="footer__link">Customer Support</a>
+                    </li>
+                    <li>
+                        <a href="#" class="footer__link">About Us</a>
+                    </li>
+                    <li>
+                        <a href="#" class="footer__link">Copy Right</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="footer__content">
+                <h3 class="footer__title">Product</h3>
+                <ul class="footer__links">
+                    <li>
+                        <a href="#" class="footer__link">Hoodies</a>
+                    </li>
+                    <li>
+                        <a href="#" class="footer__link">Shirts</a>
+                    </li>
+                    <li>
+                        <a href="#" class="footer__link">Caps</a>
+                    </li>
+                </ul>
+        </div>
+        <div class="footer__content">
+            <h3 class="footer__title">Social</h3>
+            <ul class="footer__social">
+                <a href="https://www.facebook.com/" target="_blank" class="footer__social-link">
+                    <img src="./assets/images/006-facebook-app-symbol.png" alt="">
+                </a>
+                <a href="https://www.twitter.com/" target="_blank" class="footer__social-link">
+                    <img src="./assets/images/001-twitter.png" alt="">
+                </a>
+                <a href="https://www.instagram.com/" target="_blank" class="footer__social-link">
+                    <img src="./assets/images/007-instagram.png" alt="">
+                </a>
+            </ul>
+        </div>
+        </div>
+        <span class="footer__copy">© F1. All rights reserved</span>
+    </footer>
+    
+    <script src="./assets/js/main.js"></script>
+</body>
+</html>
